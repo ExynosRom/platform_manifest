@@ -7,7 +7,7 @@
            
 <!-- Samsung  PROJECTS -->            
 <project name="CyanogenMod/android_external_stlport" path="external/stlport" remote="gh" />
-<project name="CyanogenMod/android_hardware_samsung" path="hardware/samsung" remote="gh" />
+<project name="TeamEOS/android_hardware_samsung" path="hardware/samsung" remote="gh" revision="ng7.0" />
 <project name="CyanogenMod/android_packages_apps_SamsungServiceMode" path="packages/apps/SamsungServiceMode" remote="gh" />
 <project name="CyanogenMod/android_hardware_samsung_slsi-cm_openmax" path="hardware/samsung_slsi-cm/openmax" remote="gh" />
 
@@ -21,8 +21,8 @@
 
  <!-- Galaxy Tab S2 Device Source --> 
 <project name="CyanogenMod/android_kernel_samsung_gts2"         path="kernel/samsung/gts2" remote="gh" revision="cm-13.0"/>
-<project name="CyanogenMod/android_device_samsung_gts2-common"  path="device/samsung/gts2-common" remote="gh" revision="cm-13.0"/>
-<project name="CyanogenMod/android_device_samsung_gts210ltexx"  path="device/samsung/gts210ltexx" remote="gh" revision="cm-13.0" />
+<project name="CyanogenMod/android_device_samsung_gts2-common"  path="device/samsung/gts2-common" remote="gh" revision="cm-14.0"/>
+<project name="TeamEOS/android_device_samsung_gts210ltexx"  path="device/samsung/gts210ltexx" remote="gh" revision="ng7.0" />
 <project name="CyanogenMod/android_device_samsung_gts210wifi"   path="device/samsung/gts210wifi" remote="gh" revision="cm-13.0"/>
 <project name="Galaxy-Tab-S2/android_device_samsung_gts28wifi"   path="device/samsung/gts28wifi" remote="gh" revision="cm-13.0"/>
 <project name="Galaxy-Tab-S2/android_device_samsung_gts28lte"   path="device/samsung/gts28lte" remote="gh" revision="cm-13.0"/>
