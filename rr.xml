@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+<!-- add github as a remote source -->
+<remote  name="gh"
+           fetch="https://github.com/" />
+           
+           
+<!-- Samsung  PROJECTS -->            
+<project name="CyanogenMod/android_external_stlport" path="external/stlport" remote="gh" />
+<project name="CyanogenMod/android_hardware_samsung" path="hardware/samsung" remote="gh" />
+<project name="CyanogenMod/android_packages_apps_SamsungServiceMode" path="packages/apps/SamsungServiceMode" remote="gh" />
+<project name="CyanogenMod/android_hardware_samsung_slsi-cm_openmax" path="hardware/samsung_slsi-cm/openmax" remote="gh" />
+
+<!-- Exynos 5 PROJECTS -->           
+<project name="CyanogenMod/android_hardware_samsung_slsi-cm_exynos" path="hardware/samsung_slsi-cm/exynos" remote="gh" />
+<project name="CyanogenMod/android_hardware_samsung_slsi-cm_exynos5" path="hardware/samsung_slsi-cm/exynos5" remote="gh" />
+
+
+<!-- Exynos 5433 PROJECTS -->
+<project name="CyanogenMod/android_hardware_samsung_slsi-cm_exynos5433" path="hardware/samsung_slsi-cm/exynos5433" remote="gh" />
+
+ <!-- Galaxy Tab S2 Device Source --> 
+<project name="CyanogenMod/android_kernel_samsung_gts2"         path="kernel/samsung/gts2" remote="gh" revision="cm-13.0"/>
+<project name="CyanogenMod/android_device_samsung_gts2-common"  path="device/samsung/gts2-common" remote="gh" revision="cm-13.0"/>
+<project name="CyanogenMod/android_device_samsung_gts210ltexx"  path="device/samsung/gts210ltexx" remote="gh" revision="cm-13.0" />
+<project name="CyanogenMod/android_device_samsung_gts210wifi"   path="device/samsung/gts210wifi" remote="gh" revision="cm-13.0"/>
+<project name="Galaxy-Tab-S2/android_device_samsung_gts28wifi"   path="device/samsung/gts28wifi" remote="gh" revision="cm-13.0"/>
+<project name="Galaxy-Tab-S2/android_device_samsung_gts28lte"   path="device/samsung/gts28lte" remote="gh" revision="cm-13.0"/>
+
+<!-- Vendor Source --> 
+<project name="TheMuppets/proprietary_vendor_samsung" path="vendor/samsung"  remote="gh" revision="cm-13.0" />
+
+
+</manifest>
