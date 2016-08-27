@@ -533,9 +533,9 @@
   <project path="tools/tradefederation" name="platform/tools/tradefederation" groups="notdefault,tradefed" />
   
   <!-- Add Team EOS files -->
-   <project path="frameworks/native" name="TeamEOS/frameworks_native" groups="pdk" revision="ng7.0" />
-   <project path="system/core" name="TeamEOS/system_core" groups="pdk"  revision="ng7.0" />
-   <project path="hardware/ril" name="TeamEOS/hardware_ril" groups="pdk" revision="ng7.0" />
-   <project path="frameworks/av" name="TeamEOS/frameworks_av" groups="pdk"  revision="ng7.0" />
+   <project path="frameworks/native" name="TeamEOS/frameworks_native" groups="pdk" revision="ng7.0" remote="gh" />
+   <project path="system/core" name="TeamEOS/system_core" groups="pdk"  revision="ng7.0" remote="gh" />
+   <project path="hardware/ril" name="TeamEOS/hardware_ril" groups="pdk" revision="ng7.0" remote="gh" />
+   <project path="frameworks/av" name="TeamEOS/frameworks_av" groups="pdk"  revision="ng7.0" remote="gh" />
 
 </manifest>
