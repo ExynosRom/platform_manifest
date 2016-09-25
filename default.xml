@@ -512,16 +512,16 @@
   <project path="tools/tradefederation" name="platform/tools/tradefederation" groups="notdefault,tradefed" />
   
   <!-- Add Scorpion Rom files -->
-   <project path="frameworks/native" name="ScorpionRom/frameworks_native" groups="pdk" revision="n" remote="gh" />
-   <project path="system/core" name="ScorpionRom/system_core" groups="pdk"  revision="n" remote="gh" />
-   <project path="hardware/ril" name="ScorpionRom/hardware_ril" groups="pdk" revision="n" remote="gh" />
+   <project path="frameworks/native" name="ScorpionRom/android_frameworks_native" groups="pdk" revision="n" remote="gh" />
+   <project path="system/core" name="ScorpionRom/android_system_core" groups="pdk"  revision="n" remote="gh" />
+   <project path="hardware/ril" name="ScorpionRom/android_hardware_ril" groups="pdk" revision="n" remote="gh" />
    <project path="frameworks/av" name="ScorpionRom/frameworks_av" groups="pdk"  revision="n" remote="gh" />
-   <project path="build" name="ScorpionRom/build" groups="pdk,tradefed"  revision="n" remote="gh" >
+   <project path="build" name="ScorpionRom/android_build" groups="pdk,tradefed"  revision="n" remote="gh" >
      <copyfile src="core/root.mk" dest="Makefile" />
   </project>
-   <project path="bionic" name="ScorpionRom/bionic" revision="n" remote="gh" />
-   <project path="frameworks/opt/telephony" name="ScorpionRom/frameworks_opt_telephony" revision="n" remote="gh" />
-    <project path="hardware/broadcom/libbt" name="ScorpionRom/platform/hardware/broadcom/libbt" groups="pdk" revision="n" remote="gh" />
+   <project path="bionic" name="ScorpionRom/android_bionic" revision="n" remote="gh" />
+   <project path="frameworks/opt/telephony" name="ScorpionRom/android_frameworks_opt_telephony" revision="n" remote="gh" />
+    <project path="hardware/broadcom/libbt" name="ScorpionRom/android_platform/hardware/broadcom/libbt" groups="pdk" revision="n" remote="gh" />
    
 
 </manifest>
