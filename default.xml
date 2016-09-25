@@ -3,7 +3,7 @@
 
   <remote  name="aosp"
            fetch="https://android.googlesource.com" />
-  <default revision="refs/tags/android-7.0.0_r1"
+  <default revision="refs/tags/android-7.0.0_r6"
            remote="aosp"
            sync-j="4" />
   
@@ -323,7 +323,6 @@
   <project path="frameworks/webview" name="platform/frameworks/webview" groups="pdk-cw-fs,pdk-fs" />
   <project path="frameworks/wilhelm" name="platform/frameworks/wilhelm" groups="pdk-cw-fs,pdk-fs" />
   <project path="hardware/akm" name="platform/hardware/akm" />
-  <project path="hardware/broadcom/libbt" name="platform/hardware/broadcom/libbt" groups="pdk" />
   <project path="hardware/broadcom/wlan" name="platform/hardware/broadcom/wlan" groups="pdk,broadcom_wlan" />
   <project path="hardware/bsp/intel" name="platform/hardware/bsp/intel" />
   <project path="hardware/google/apf" name="platform/hardware/google/apf" groups="pdk" />
@@ -512,16 +511,17 @@
   <project path="tools/test/connectivity" name="platform/tools/test/connectivity" />
   <project path="tools/tradefederation" name="platform/tools/tradefederation" groups="notdefault,tradefed" />
   
-  <!-- Add Team EOS files -->
-   <project path="frameworks/native" name="TeamEOS/frameworks_native" groups="pdk" revision="ng7.0" remote="gh" />
-   <project path="system/core" name="TeamEOS/system_core" groups="pdk"  revision="ng7.0" remote="gh" />
-   <project path="hardware/ril" name="TeamEOS/hardware_ril" groups="pdk" revision="ng7.0" remote="gh" />
-   <project path="frameworks/av" name="TeamEOS/frameworks_av" groups="pdk"  revision="ng7.0" remote="gh" />
-   <project path="build" name="TeamEOS/build" groups="pdk,tradefed"  revision="ng7.0" remote="gh" >
+  <!-- Add Scorpion Rom files -->
+   <project path="frameworks/native" name="ScorpionRom/frameworks_native" groups="pdk" revision="n" remote="gh" />
+   <project path="system/core" name="ScorpionRom/system_core" groups="pdk"  revision="n" remote="gh" />
+   <project path="hardware/ril" name="ScorpionRom/hardware_ril" groups="pdk" revision="n" remote="gh" />
+   <project path="frameworks/av" name="ScorpionRom/frameworks_av" groups="pdk"  revision="n" remote="gh" />
+   <project path="build" name="ScorpionRom/build" groups="pdk,tradefed"  revision="n" remote="gh" >
      <copyfile src="core/root.mk" dest="Makefile" />
   </project>
-   <project path="bionic" name="TeamEOS/bionic" revision="ng7.0" remote="gh" />
-   <project path="frameworks/opt/telephony" name="TeamEOS/frameworks_opt_telephony" revision="ng7.0" remote="gh" />
+   <project path="bionic" name="ScorpionRom/bionic" revision="n" remote="gh" />
+   <project path="frameworks/opt/telephony" name="ScorpionRom/frameworks_opt_telephony" revision="n" remote="gh" />
+    <project path="hardware/broadcom/libbt" name="ScorpionRom/platform/hardware/broadcom/libbt" groups="pdk" revision="n" remote="gh" />
    
 
 </manifest>
