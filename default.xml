@@ -515,7 +515,7 @@
    <project path="frameworks/native" name="ScorpionRom/android_frameworks_native" groups="pdk" revision="n" remote="gh" />
    <project path="system/core" name="ScorpionRom/android_system_core" groups="pdk"  revision="n" remote="gh" />
    <project path="hardware/ril" name="ScorpionRom/android_hardware_ril" groups="pdk" revision="n" remote="gh" />
-   <project path="frameworks/av" name="ScorpionRom/frameworks_av" groups="pdk"  revision="n" remote="gh" />
+   <project path="frameworks/av" name="ScorpionRom/android_frameworks_av" groups="pdk"  revision="n" remote="gh" />
    <project path="build" name="ScorpionRom/android_build" groups="pdk,tradefed"  revision="n" remote="gh" >
      <copyfile src="core/root.mk" dest="Makefile" />
   </project>
