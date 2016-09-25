@@ -521,7 +521,7 @@
   </project>
    <project path="bionic" name="ScorpionRom/android_bionic" revision="n" remote="gh" />
    <project path="frameworks/opt/telephony" name="ScorpionRom/android_frameworks_opt_telephony" revision="n" remote="gh" />
-    <project path="hardware/broadcom/libbt" name="ScorpionRom/android_platform_hardware_broadcom_libbt" groups="pdk" revision="n" remote="gh" />
+    <project path="hardware/broadcom/libbt" name="ScorpionRom/android_hardware_broadcom_libbt" groups="pdk" revision="n" remote="gh" />
    
 
 </manifest>
